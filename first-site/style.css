@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+.row {
+    background-color: rgb(124, 111, 204);
+    padding: 20px;
+    margin:0;
+    text-align: center;
+    column-count: 3;
+    column-fill: balance;
+
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+}
+
+h2 {
+    
+    color: rgb(72, 72, 241);
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1.25rem;
+    width: 12em;
+}
+p {
+    padding: 20px;
+    border-left: 4px red solid;
+    height: 50%;
+    font-size: 80%;
+}
+.navbar {
+    nav-right: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(248, 49, 14);
+}
+
+
+li {
+    display: inline-block;
+    font-style: italic;
+}
+
+.navbar {
+    color: white;
+}
+
+#Spells, #Weapon, #Sight {
+    color: rgb(46, 44, 44);
+    text-align: left;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.main {
+    display:grid;
+    grid-gap:1px;
+    grid-template-areas: 
+        'main1 main1 main2'
+        'main1 main1 main2'; 
+        
+}
+
+.main1 {
+    grid-area: main1;
+}
+.main2 {
+    grid-area: main2;
+}
